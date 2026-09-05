@@ -1,0 +1,17 @@
+{
+    "name": "libflif",
+    "description": "FLIF image decoder",
+    "filters":["flifdec"],
+    "help": "This filter decodes FLIF (Free Lossless Image Format) images using the FLIF reference decoder.",
+    "support": [
+        "image"
+    ],
+    "sources":"https://bevara.ddns.net/sources/libflif.accessor",
+    "filter_source":{
+        "flifdec" : "dec_flif.c"
+    },
+    "extension":{
+      "flif" : "img"
+    },
+    "licence_required":false
+}
