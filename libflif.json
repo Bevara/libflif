@@ -1,5 +1,6 @@
 {
     "name": "libflif",
+    "version": "1.0.1",
     "description": "FLIF image decoder",
     "filters":["flifdec"],
     "help": "This filter decodes FLIF (Free Lossless Image Format) images using the FLIF reference decoder.",
