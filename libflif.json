@@ -2,19 +2,28 @@
     "name": "libflif",
     "version": "1.0.2",
     "description": "FLIF image decoder",
-    "filters":["flifdec"],
+    "filters": [
+        "flifdec"
+    ],
     "help": "This filter decodes FLIF (Free Lossless Image Format) images using the FLIF reference decoder.",
     "support": [
         "image"
     ],
-    "sources":"https://bevara.ddns.net/sources/libflif.accessor",
-    "filter_source":{
-        "flifdec" : "dec_flif.c"
+    "sources": "https://bevara.ddns.net/sources/libflif.accessor",
+    "filter_source": {
+        "flifdec": "dec_flif.c"
     },
-    "extension":{
-      "flif" : "img"
+    "extension": {
+        "flif": "img"
     },
-    "using": ["mm_solver_minimal_1.0.1", "mm_solver_1.0.1", "mm_solver_1.0.2", "mm_solver_1.0.3", "mm_solver_1.0.4"],
+    "using": [
+        "mm_solver_minimal_1.0.1",
+        "mm_solver_1.0.1",
+        "mm_solver_1.0.2",
+        "mm_solver_1.0.3",
+        "mm_solver_1.0.4",
+        "mm_solver_1.0.5"
+    ],
     "patents": {
         "status": "royalty-free",
         "note": "FLIF",
